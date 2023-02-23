@@ -7,7 +7,7 @@ import android.preference.PreferenceManager;
 
 public class Utilities {
     private SharedPreferences sp;
-    private SharedPreferences.Editor editor;
+    private static SharedPreferences.Editor editor;
 
     public static void setPref(Context context, String key, String value){
         sp = PreferenceManager.getDefaultSharedPreferences(context);
