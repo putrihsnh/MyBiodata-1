@@ -6,7 +6,7 @@ import android.nfc.tech.Ndef;
 import android.preference.PreferenceManager;
 
 public class Utilities {
-    private SharedPreferences sp;
+    private static SharedPreferences sp;
     private static SharedPreferences.Editor editor;
 
     public static void setPref(Context context, String key, String value){
